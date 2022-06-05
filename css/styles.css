@@ -314,6 +314,7 @@ padding-top: 0;
         line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
+        margin-bottom: 16px;
 }
 
 .our-team-list {
@@ -332,6 +333,25 @@ padding-top: 0;
 .our-team-bottom-part {
     padding-top: 30px;
     padding-bottom: 30px
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
 }
 
 /*=============================/OUR TEAM=====================*/
