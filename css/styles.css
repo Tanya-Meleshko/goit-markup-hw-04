@@ -157,8 +157,18 @@ color: var(--color-light);
     color: var(--color-in-action);
 }
 
+.contact-link-header-item:hover .icon-header,
+.contact-link-header-item:focus .icon-header {
+    fill: var(--color-in-action);
+}
+
 .current {
     color: var(--color-in-action);
+}
+
+.icon-header {
+    fill: var(--color-text);
+    margin-right: 10px;
 }
 
 /*=============================/HEADER=====================*/
