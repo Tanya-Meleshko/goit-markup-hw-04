@@ -351,7 +351,21 @@ padding-top: 0;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: #FFFFFF;
+    background-color: var(--color-light);
+}
+
+.social-list-icon {
+    fill: #AFB1B8;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--color-in-action);
+}
+
+.social-list-link:hover .social-list-icon, 
+.social-list-link:focus .social-list-icon {
+    fill: var(--color-light);
 }
 
 /*=============================/OUR TEAM=====================*/
