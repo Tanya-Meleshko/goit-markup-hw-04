@@ -240,23 +240,44 @@ color: var(--color-light);
     flex-basis: calc((100% - 120px) / 4);
 }
 
+.features-icon-list {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+
+.features-icon-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.features-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background: var(--background-light);
+    border-radius: 4px;
+    }
+
 /*=============================/FEATURES=====================*/
 
 /*=============================ACTIVITY=====================*/
 .activity {
-padding-top: 0;
+    padding-top: 0;
 }
 
 
 .activity-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        color: var(--color-title);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
 
-        margin-bottom: 50px;
-        text-align: center;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .activity-list {
