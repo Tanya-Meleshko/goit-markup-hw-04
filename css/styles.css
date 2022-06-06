@@ -171,6 +171,16 @@ color: var(--color-light);
     margin-right: 10px;
 }
 
+.box-mail {
+width: 161px;
+height: 16px;
+}
+
+.box-tel {
+    width: 142px;
+    height: 16px;
+}
+
 /*=============================/HEADER=====================*/
 
 /*===============================HERO======================*/
@@ -271,6 +281,11 @@ color: var(--color-light);
     border-radius: 4px;
     }
 
+    .features-icon-item {
+        width: 270px;
+        height: 120px;
+    }
+
 /*=============================/FEATURES=====================*/
 
 /*=============================ACTIVITY=====================*/
@@ -368,7 +383,7 @@ color: var(--color-light);
 
 .social-list {
     display: flex;
-    justify-content: center;
+    justify-content: center;   
 }
 
 .social-list-item:not(:last-child) {
@@ -397,6 +412,11 @@ color: var(--color-light);
 .social-list-link:hover .social-list-icon, 
 .social-list-link:focus .social-list-icon {
     fill: var(--color-light);
+}
+
+.social-list-item {
+    width: 44px;
+    height: 44px;
 }
 
 /*=============================/OUR TEAM=====================*/
@@ -446,6 +466,11 @@ color: var(--color-light);
 .clients-link:hover,
 .clients-link:focus {
     border-color: var(--color-in-action);
+}
+
+.clients-item {
+    width: 170px;
+    height: 92px;
 }
 
 /*=============================/CLIENTS=======================*/
@@ -612,6 +637,11 @@ margin-bottom: 9px;
 .social-link-footer:hover,
 .social-link-footer:focus {
     background-color: var(--color-in-action);
+}
+
+.social-item-footer {
+    width: 44px;
+    height: 44px;
 }
 
 /*=============================/FOOTER=====================*/
