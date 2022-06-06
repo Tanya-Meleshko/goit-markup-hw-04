@@ -401,6 +401,55 @@ color: var(--color-light);
 
 /*=============================/OUR TEAM=====================*/
 
+/*=============================CLIENTS=======================*/
+
+.title-clients {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+}
+
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+  }
+
+.clients-icon {
+    fill: #AFB1B8;
+}
+
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
+    fill: var(--color-in-action);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    border-color: var(--color-in-action);
+}
+
+/*=============================/CLIENTS=======================*/
+
 /*==========================PORTFOLIO=================*/
 
 .service-list-button {
