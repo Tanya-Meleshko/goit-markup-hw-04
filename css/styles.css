@@ -467,8 +467,8 @@ color: var(--color-light);
         color: var(--color-title);
         background: var(--background-light);
         cursor: pointer;
-
         padding: 6px 22px;
+        border-radius: 4px;
 }
 
 .service-list-button:hover,
